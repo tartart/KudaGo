@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		38DF394E29700A57004EF57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF394D29700A57004EF57E /* AppDelegate.swift */; };
 		38DF395029700A57004EF57E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF394F29700A57004EF57E /* SceneDelegate.swift */; };
-		38DF395229700A57004EF57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF395129700A57004EF57E /* ViewController.swift */; };
+		38DF395229700A57004EF57E /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF395129700A57004EF57E /* EventsViewController.swift */; };
 		38DF395729700A59004EF57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DF395629700A59004EF57E /* Assets.xcassets */; };
 		38DF395A29700A59004EF57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DF395829700A59004EF57E /* LaunchScreen.storyboard */; };
 		38DF396529700A59004EF57E /* KudaGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF396429700A59004EF57E /* KudaGoTests.swift */; };
@@ -17,6 +17,7 @@
 		38DF397129700A59004EF57E /* KudaGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */; };
 		38DF397F2970139E004EF57E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF397E2970139E004EF57E /* NetworkService.swift */; };
 		38DF398229701D25004EF57E /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF398129701D25004EF57E /* UseCase.swift */; };
+		38DF398529702023004EF57E /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF398429702023004EF57E /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		38DF394A29700A57004EF57E /* KudaGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KudaGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DF394D29700A57004EF57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38DF394F29700A57004EF57E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38DF395129700A57004EF57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38DF395129700A57004EF57E /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		38DF395629700A59004EF57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38DF395929700A59004EF57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38DF395B29700A59004EF57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudaGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38DF397E2970139E004EF57E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		38DF398129701D25004EF57E /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		38DF398429702023004EF57E /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +103,12 @@
 		38DF394C29700A57004EF57E /* KudaGo */ = {
 			isa = PBXGroup;
 			children = (
+				38DF398329702010004EF57E /* Extensions */,
+				38DF398729702139004EF57E /* Resources */,
+				38DF398629702125004EF57E /* Modules */,
 				38DF397D29701389004EF57E /* Services */,
 				38DF394D29700A57004EF57E /* AppDelegate.swift */,
 				38DF394F29700A57004EF57E /* SceneDelegate.swift */,
-				38DF395129700A57004EF57E /* ViewController.swift */,
-				38DF395629700A59004EF57E /* Assets.xcassets */,
-				38DF395829700A59004EF57E /* LaunchScreen.storyboard */,
 				38DF395B29700A59004EF57E /* Info.plist */,
 			);
 			path = KudaGo;
@@ -144,6 +146,31 @@
 				38DF398129701D25004EF57E /* UseCase.swift */,
 			);
 			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		38DF398329702010004EF57E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38DF398429702023004EF57E /* UITableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38DF398629702125004EF57E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				38DF395129700A57004EF57E /* EventsViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		38DF398729702139004EF57E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38DF395629700A59004EF57E /* Assets.xcassets */,
+				38DF395829700A59004EF57E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38DF398229701D25004EF57E /* UseCase.swift in Sources */,
-				38DF395229700A57004EF57E /* ViewController.swift in Sources */,
+				38DF395229700A57004EF57E /* EventsViewController.swift in Sources */,
 				38DF394E29700A57004EF57E /* AppDelegate.swift in Sources */,
 				38DF397F2970139E004EF57E /* NetworkService.swift in Sources */,
 				38DF395029700A57004EF57E /* SceneDelegate.swift in Sources */,
+				38DF398529702023004EF57E /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
