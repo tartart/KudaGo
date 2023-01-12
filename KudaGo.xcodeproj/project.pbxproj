@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38DF394E29700A57004EF57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF394D29700A57004EF57E /* AppDelegate.swift */; };
+		38DF395029700A57004EF57E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF394F29700A57004EF57E /* SceneDelegate.swift */; };
+		38DF395229700A57004EF57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF395129700A57004EF57E /* ViewController.swift */; };
+		38DF395729700A59004EF57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DF395629700A59004EF57E /* Assets.xcassets */; };
+		38DF395A29700A59004EF57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DF395829700A59004EF57E /* LaunchScreen.storyboard */; };
+		38DF396529700A59004EF57E /* KudaGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF396429700A59004EF57E /* KudaGoTests.swift */; };
+		38DF396F29700A59004EF57E /* KudaGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF396E29700A59004EF57E /* KudaGoUITests.swift */; };
+		38DF397129700A59004EF57E /* KudaGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DF396129700A59004EF57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DF394229700A57004EF57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF394929700A57004EF57E;
+			remoteInfo = KudaGo;
+		};
+		38DF396B29700A59004EF57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DF394229700A57004EF57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF394929700A57004EF57E;
+			remoteInfo = KudaGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38DF394A29700A57004EF57E /* KudaGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KudaGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DF394D29700A57004EF57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38DF394F29700A57004EF57E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38DF395129700A57004EF57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38DF395629700A59004EF57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38DF395929700A59004EF57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38DF395B29700A59004EF57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DF396029700A59004EF57E /* KudaGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KudaGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DF396429700A59004EF57E /* KudaGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudaGoTests.swift; sourceTree = "<group>"; };
+		38DF396A29700A59004EF57E /* KudaGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KudaGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DF396E29700A59004EF57E /* KudaGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudaGoUITests.swift; sourceTree = "<group>"; };
+		38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudaGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DF394729700A57004EF57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DF395D29700A59004EF57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DF396729700A59004EF57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DF394129700A57004EF57E = {
+			isa = PBXGroup;
+			children = (
+				38DF394C29700A57004EF57E /* KudaGo */,
+				38DF396329700A59004EF57E /* KudaGoTests */,
+				38DF396D29700A59004EF57E /* KudaGoUITests */,
+				38DF394B29700A57004EF57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DF394B29700A57004EF57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DF394A29700A57004EF57E /* KudaGo.app */,
+				38DF396029700A59004EF57E /* KudaGoTests.xctest */,
+				38DF396A29700A59004EF57E /* KudaGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DF394C29700A57004EF57E /* KudaGo */ = {
+			isa = PBXGroup;
+			children = (
+				38DF394D29700A57004EF57E /* AppDelegate.swift */,
+				38DF394F29700A57004EF57E /* SceneDelegate.swift */,
+				38DF395129700A57004EF57E /* ViewController.swift */,
+				38DF395629700A59004EF57E /* Assets.xcassets */,
+				38DF395829700A59004EF57E /* LaunchScreen.storyboard */,
+				38DF395B29700A59004EF57E /* Info.plist */,
+			);
+			path = KudaGo;
+			sourceTree = "<group>";
+		};
+		38DF396329700A59004EF57E /* KudaGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				38DF396429700A59004EF57E /* KudaGoTests.swift */,
+			);
+			path = KudaGoTests;
+			sourceTree = "<group>";
+		};
+		38DF396D29700A59004EF57E /* KudaGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38DF396E29700A59004EF57E /* KudaGoUITests.swift */,
+				38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */,
+			);
+			path = KudaGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DF394929700A57004EF57E /* KudaGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DF397429700A59004EF57E /* Build configuration list for PBXNativeTarget "KudaGo" */;
+			buildPhases = (
+				38DF394629700A57004EF57E /* Sources */,
+				38DF394729700A57004EF57E /* Frameworks */,
+				38DF394829700A57004EF57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KudaGo;
+			productName = KudaGo;
+			productReference = 38DF394A29700A57004EF57E /* KudaGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38DF395F29700A59004EF57E /* KudaGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DF397729700A59004EF57E /* Build configuration list for PBXNativeTarget "KudaGoTests" */;
+			buildPhases = (
+				38DF395C29700A59004EF57E /* Sources */,
+				38DF395D29700A59004EF57E /* Frameworks */,
+				38DF395E29700A59004EF57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DF396229700A59004EF57E /* PBXTargetDependency */,
+			);
+			name = KudaGoTests;
+			productName = KudaGoTests;
+			productReference = 38DF396029700A59004EF57E /* KudaGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38DF396929700A59004EF57E /* KudaGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DF397A29700A59004EF57E /* Build configuration list for PBXNativeTarget "KudaGoUITests" */;
+			buildPhases = (
+				38DF396629700A59004EF57E /* Sources */,
+				38DF396729700A59004EF57E /* Frameworks */,
+				38DF396829700A59004EF57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DF396C29700A59004EF57E /* PBXTargetDependency */,
+			);
+			name = KudaGoUITests;
+			productName = KudaGoUITests;
+			productReference = 38DF396A29700A59004EF57E /* KudaGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DF394229700A57004EF57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					38DF394929700A57004EF57E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					38DF395F29700A59004EF57E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 38DF394929700A57004EF57E;
+					};
+					38DF396929700A59004EF57E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 38DF394929700A57004EF57E;
+					};
+				};
+			};
+			buildConfigurationList = 38DF394529700A57004EF57E /* Build configuration list for PBXProject "KudaGo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38DF394129700A57004EF57E;
+			productRefGroup = 38DF394B29700A57004EF57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DF394929700A57004EF57E /* KudaGo */,
+				38DF395F29700A59004EF57E /* KudaGoTests */,
+				38DF396929700A59004EF57E /* KudaGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DF394829700A57004EF57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DF395A29700A59004EF57E /* LaunchScreen.storyboard in Resources */,
+				38DF395729700A59004EF57E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DF395E29700A59004EF57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DF396829700A59004EF57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DF394629700A57004EF57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DF395229700A57004EF57E /* ViewController.swift in Sources */,
+				38DF394E29700A57004EF57E /* AppDelegate.swift in Sources */,
+				38DF395029700A57004EF57E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DF395C29700A59004EF57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DF396529700A59004EF57E /* KudaGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DF396629700A59004EF57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DF396F29700A59004EF57E /* KudaGoUITests.swift in Sources */,
+				38DF397129700A59004EF57E /* KudaGoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38DF396229700A59004EF57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DF394929700A57004EF57E /* KudaGo */;
+			targetProxy = 38DF396129700A59004EF57E /* PBXContainerItemProxy */;
+		};
+		38DF396C29700A59004EF57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DF394929700A57004EF57E /* KudaGo */;
+			targetProxy = 38DF396B29700A59004EF57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38DF395829700A59004EF57E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DF395929700A59004EF57E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DF397229700A59004EF57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38DF397329700A59004EF57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38DF397529700A59004EF57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F8A49FPK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KudaGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tartart.kudago.KudaGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38DF397629700A59004EF57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F8A49FPK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KudaGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tartart.kudago.KudaGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38DF397829700A59004EF57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F8A49FPK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tartart.kudago.KudaGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KudaGo.app/KudaGo";
+			};
+			name = Debug;
+		};
+		38DF397929700A59004EF57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F8A49FPK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tartart.kudago.KudaGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KudaGo.app/KudaGo";
+			};
+			name = Release;
+		};
+		38DF397B29700A59004EF57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F8A49FPK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tartart.kudago.KudaGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KudaGo;
+			};
+			name = Debug;
+		};
+		38DF397C29700A59004EF57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F8A49FPK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tartart.kudago.KudaGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KudaGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DF394529700A57004EF57E /* Build configuration list for PBXProject "KudaGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DF397229700A59004EF57E /* Debug */,
+				38DF397329700A59004EF57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DF397429700A59004EF57E /* Build configuration list for PBXNativeTarget "KudaGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DF397529700A59004EF57E /* Debug */,
+				38DF397629700A59004EF57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DF397729700A59004EF57E /* Build configuration list for PBXNativeTarget "KudaGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DF397829700A59004EF57E /* Debug */,
+				38DF397929700A59004EF57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DF397A29700A59004EF57E /* Build configuration list for PBXNativeTarget "KudaGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DF397B29700A59004EF57E /* Debug */,
+				38DF397C29700A59004EF57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DF394229700A57004EF57E /* Project object */;
+}
