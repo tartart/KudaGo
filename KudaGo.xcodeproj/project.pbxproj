@@ -15,6 +15,8 @@
 		38DF396529700A59004EF57E /* KudaGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF396429700A59004EF57E /* KudaGoTests.swift */; };
 		38DF396F29700A59004EF57E /* KudaGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF396E29700A59004EF57E /* KudaGoUITests.swift */; };
 		38DF397129700A59004EF57E /* KudaGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */; };
+		38DF397F2970139E004EF57E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF397E2970139E004EF57E /* NetworkService.swift */; };
+		38DF398229701D25004EF57E /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF398129701D25004EF57E /* UseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		38DF396A29700A59004EF57E /* KudaGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KudaGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DF396E29700A59004EF57E /* KudaGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudaGoUITests.swift; sourceTree = "<group>"; };
 		38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudaGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38DF397E2970139E004EF57E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		38DF398129701D25004EF57E /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		38DF394C29700A57004EF57E /* KudaGo */ = {
 			isa = PBXGroup;
 			children = (
+				38DF397D29701389004EF57E /* Services */,
 				38DF394D29700A57004EF57E /* AppDelegate.swift */,
 				38DF394F29700A57004EF57E /* SceneDelegate.swift */,
 				38DF395129700A57004EF57E /* ViewController.swift */,
@@ -122,6 +127,23 @@
 				38DF397029700A59004EF57E /* KudaGoUITestsLaunchTests.swift */,
 			);
 			path = KudaGoUITests;
+			sourceTree = "<group>";
+		};
+		38DF397D29701389004EF57E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				38DF398029701D15004EF57E /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		38DF398029701D15004EF57E /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				38DF397E2970139E004EF57E /* NetworkService.swift */,
+				38DF398129701D25004EF57E /* UseCase.swift */,
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DF398229701D25004EF57E /* UseCase.swift in Sources */,
 				38DF395229700A57004EF57E /* ViewController.swift in Sources */,
 				38DF394E29700A57004EF57E /* AppDelegate.swift in Sources */,
+				38DF397F2970139E004EF57E /* NetworkService.swift in Sources */,
 				38DF395029700A57004EF57E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
